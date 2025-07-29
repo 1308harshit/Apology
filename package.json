@@ -1,0 +1,29 @@
+{
+    "name": "heartfelt-apology-website",
+    "version": "1.0.0",
+    "description": "A beautiful, interactive apology website to express your feelings and win back your loved one's heart",
+    "main": "index.html",
+    "scripts": {
+      "dev": "live-server",
+      "build": "echo 'Static site - no build needed'",
+      "start": "echo 'Static site deployed'"
+    },
+    "keywords": [
+      "apology",
+      "website",
+      "love",
+      "relationship",
+      "romantic",
+      "interactive",
+      "responsive"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "your-repo-url"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.2"
+    }
+  }

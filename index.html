@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Floating Hearts Animation -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#apology" class="nav-link">My Apology</a>
+            <a href="#memories" class="nav-link">Our Memories</a>
+            <a href="#promises" class="nav-link">My Promises</a>
+            <a href="#message" class="nav-link">Final Message</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">I'm Sorry, My Love</h1>
+            <p class="hero-subtitle">Every moment without you feels like an eternity</p>
+            <div class="hero-heart">
+                <i class="fas fa-heart"></i>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('apology')">
+                Read My Heart Out
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Apology Section -->
+    <section id="apology" class="apology-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Heartfelt Apology</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="apology-content">
+                <div class="apology-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heart-broken"></i>
+                    </div>
+                    <h3>I Was Wrong</h3>
+                    <p>I know I hurt you, and I can't express how deeply sorry I am. My actions were thoughtless, and I failed to consider your feelings. You deserve so much better than what I gave you.</p>
+                </div>
+                
+                <div class="apology-card">
+                    <div class="card-icon">
+                        <i class="fas fa-praying-hands"></i>
+                    </div>
+                    <h3>Please Forgive Me</h3>
+                    <p>I'm not asking for your forgiveness because I deserve it, but because I can't imagine my life without you. You are my everything, and I promise to do whatever it takes to make things right.</p>
+                </div>
+                
+                <div class="apology-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>I Love You</h3>
+                    <p>These three words will never be enough to express how I feel about you. You are my sunshine, my anchor, my home. I love you more than words can say, and I always will.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories" class="memories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Beautiful Memories</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">These moments remind me why you're worth fighting for</p>
+            </div>
+            
+            <div class="memories-grid">
+                <div class="memory-card" data-memory="1">
+                    <div class="memory-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>Our First Meet</h4>
+                    <p>The moment I knew you were special. Your laugh, your smile, the way of looking. You wearing green shirt and looking soo gorgeous. Sharing Insta Id's❤️</p>
+                </div>
+
+                <div class="memory-card" data-memory="1">
+                    <div class="memory-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>The Parking</h4>
+                    <p>The moment you made me feel like I was the only person in the world. You looked soo deep into my eyes and moment I was fallen in your Love❤️</p>
+                </div>
+                
+                <div class="memory-card" data-memory="2">
+                    <div class="memory-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Late Night Talks</h4>
+                    <p>All those nights we spent talking until sunrise, sharing our dreams, fears, and everything in between. You understood me like no one else.❤️</p>
+                </div>
+                
+                <div class="memory-card" data-memory="3">
+                    <div class="memory-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h4>Saturay Mornings</h4>
+                    <p>Waking up with the thought of going to see you makes me soo cheerfull, sitting in the parking soo touchy and hugging you soo tight. Wishing the moment never ends❤️</p>
+                </div>
+                
+                <div class="memory-card" data-memory="4">
+                    <div class="memory-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h4>Our Song</h4>
+                    <p>Every time I sing the song, I think of you. In my every word remebering you, admiring you, desiring you, and not caring about anything else in the world.❤️</p>
+                </div>
+                
+                <div class="memory-card" data-memory="5">
+                    <div class="memory-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h4>Trip Together</h4>
+                    <p>The trip was made perfect because you were there. I was able to walk side by side with you. While returning holding your hand, and looking into your eyes.❤️, admire your beauty, and feel the love❤️</p>
+                </div>
+                
+                <div class="memory-card" data-memory="6">
+                    <div class="memory-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4>Feeling Home</h4>
+                    <p>With you, I found my home. Not a place, but a feeling. A sense of belonging that I never want to lose. My Peace, My Strength, My Heart❤️, My Soul❤️, My Everything❤️, I can be relax and can lean on you, like you are mine❤️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promises Section -->
+    <section id="promises" class="promises-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Promises to You</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">This is my commitment to being better, for you, for us</p>
+            </div>
+            
+            <div class="promises-container">
+                <div class="promise-item">
+                    <div class="promise-number">1</div>
+                    <div class="promise-content">
+                        <h4>I Promise to Listen</h4>
+                        <p>Really listen. Not just to respond, but to understand. Your feelings, your thoughts, your dreams - they all matter to me.</p>
+                    </div>
+                </div>
+                
+                <div class="promise-item">
+                    <div class="promise-number">2</div>
+                    <div class="promise-content">
+                        <h4>I Promise to be Obident</h4>
+                        <p>I will listen with patience, follow with respect, and honor your words with my actions — not just in moments of ease, but always.</p>
+                    </div>
+                </div>
+                
+                <div class="promise-item">
+                    <div class="promise-number">3</div>
+                    <div class="promise-content">
+                        <h4>I Promise to Be Patient</h4>
+                        <p>Love isn't always easy, but it's always worth it. I'll be patient with you, with us, and with myself as we grow together.</p>
+                    </div>
+                </div>
+                
+                <div class="promise-item">
+                    <div class="promise-number">4</div>
+                    <div class="promise-content">
+                        <h4>I Promise to Appreciate You</h4>
+                        <p>Every day, I'll remind myself how lucky I am to have you. I'll never take you for granted. I feel make  you feel special the same way you make me feel special❤️</p>
+                    </div>
+                </div>
+
+                <div class="promise-item">
+                    <div class="promise-number">4</div>
+                    <div class="promise-content">
+                        <h4>I Promise to Clear all your misunderstanding and overthinking</h4>
+                        <p>I will listen to you, feel your worry, pain, emotions and then will pamper you, understand you, i wont keep you alone with your thoughts, i will be there even if i have explain you the same thing again and again.❤️, THATS WHAT LOVE IS RIGHT🥺❤️</p>
+                    </div>
+                </div>
+                
+                <div class="promise-item">
+                    <div class="promise-number">5</div>
+                    <div class="promise-content">
+                        <h4>I Promise to Love You</h4>
+                        <p>Completely, unconditionally, and forever. Through the good times and the challenging ones. You have my heart, always. And any moment of life I will always be open for you❤️, whenever you get stuck, and things doesnt go as you planned Just come back❤️ and you will be the most happy person in the world❤️ again. I PROMISEEE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Message Section -->
+    <section id="message" class="message-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">A Message Just for You</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="interactive-message">
+                <div class="message-box">
+                    <div class="typing-animation" id="typingAnimation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p class="typed-message" id="typedMessage"></p>
+                </div>
+                
+                <button class="start-message-btn" id="startMessageBtn">
+                    <i class="fas fa-play"></i>
+                    Click to Reveal My Heart
+                </button>
+            </div>
+            
+            <div class="final-cta">
+                <h3>Give Us Another Chance?</h3>
+                <p>I know words alone won't fix everything, but they're a start. Let me show you how much you mean to me.</p>
+                <div class="cta-buttons">
+                    <button class="response-btn yes-btn" onclick="showResponse('yes')">
+                        <i class="fas fa-heart"></i>
+                        Yes, Let's Talk
+                    </button>
+                    <button class="response-btn maybe-btn" onclick="showResponse('maybe')">
+                        <i class="fas fa-clock"></i>
+                        I Need Time
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Response Modal -->
+    <div class="modal" id="responseModal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Made with ❤️ for the most amazing person in my world</p>
+            <div class="footer-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
