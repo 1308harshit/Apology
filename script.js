@@ -227,7 +227,11 @@ function showResponse(response) {
             </div>
             <h3>Thank You! ❤️</h3>
             <p>You've just made me the happiest person in the world! I promise this is a new beginning for us.</p>
-            <p>I'll text you right now. Thank you for giving us another chance.</p>
+            <p>Click the button below to start our conversation on WhatsApp:</p>
+            <button class="whatsapp-btn" onclick="openWhatsApp()">
+                <i class="fab fa-whatsapp"></i>
+                Let's Talk on WhatsApp
+            </button>
             <p style="font-style: italic; color: #ff6b6b; margin-top: 20px;">
                 "The best relationships are the ones where you can be yourself and still be loved for who you are."
             </p>
@@ -592,4 +596,16 @@ function getNextSection(currentSection) {
     const sections = ['hero', 'apology', 'memories', 'promises', 'message'];
     const currentIndex = sections.indexOf(currentSection);
     return currentIndex < sections.length - 1 ? sections[currentIndex + 1] : null;
+}
+
+// WhatsApp Integration
+function openWhatsApp() {
+    const phoneNumber = "919328315950"; // Your number with country code
+    const message = `Hi! 💕 I just saw your beautiful apology message, and I'm so touched by your heartfelt words. Thank you for putting so much love and effort into this. I can see how much I mean to you, and it really shows how sorry you are. Let's talk about us. ❤️`;
+    
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappURL, '_blank');
 }
